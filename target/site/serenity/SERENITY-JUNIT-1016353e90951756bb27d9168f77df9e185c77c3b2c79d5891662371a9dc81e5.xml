@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="ui.FindFlightsUITest" skipped="0" tests="1" time="0.0" timestamp="2019-02-27 11:29:28"><testcase classname="ui.FindFlightsUITest" name="Initialisation"><failure message="The page object class pages.HomePage looks dodgy:&#10;Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver)" type="net.thucydides.core.pages.WrongPageError">The page object class pages.HomePage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver)</failure><system-err>The page object class pages.HomePage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver)
+</system-err></testcase></testsuite>

@@ -1,0 +1,28 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.0.BUILD-SNAPSHOT'
+	id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'eclipse'
+
+group = 'io.jaymutuku'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+
+repositories {
+	mavenCentral()
+	maven { url 'https://repo.spring.io/snapshot' }
+	maven { url 'https://repo.spring.io/milestone' }
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	implementation 'net.serenity-bdd:serenity-core:2.0.40'
+    implementation 'net.serenity-bdd:serenity-junit:2.0.40'
+    implementation 'net.serenity-bdd:serenity-rest-assured:2.0.40'
+   
+}
